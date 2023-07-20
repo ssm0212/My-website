@@ -1,0 +1,184 @@
+.title{
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(16, 56, 45);
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: white;
+}
+
+.text1{
+    text-align: left;
+    font-size: 25px;
+    background-color: rgb(146, 252, 135);
+    padding: 5px;
+    margin-bottom: 10px; 
+}
+
+nav a{
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.para1{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    margin-left: 10px;
+    justify-content: flex-start;
+    font-family: Garamond;
+    
+}
+
+#para1{
+    background-color: rgb(239, 223, 157);
+    border: black solid 1px;
+    padding: 10px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-align: center;
+
+}
+ .para1 img{
+    float: right;
+    border-radius: 10px;
+ }
+
+ .title1{
+    text-align: center;
+    font-size: 40px;
+    background-color: rgba(172, 255, 47, 0.304);
+
+ }
+ .row1{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .box1:hover, .box2:hover, .box3:hover, .box4:hover, .box5:hover{
+    box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+    transform: translate3d(0px, -1px, 0px);
+}
+
+
+.box1, .box2, .box3{
+    text-align: center;
+    margin: 20px;
+    width: 32%;
+    border: rgb(63, 255, 104) solid 2px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgreen;
+    transition: all .3s ease-in-out;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.box4, .box5{
+    text-align: center;
+    width: 32%;
+    border: rgb(63, 255, 104) solid 2px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightgreen;
+    transition: all .3s ease-in-out;
+    background-color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+.box4{
+    margin-left: 190px;
+}
+.box5{
+    margin-right: 190px;
+}
+
+h1{
+    background-color: rgba(119, 255, 0, 0.512);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+ul{
+    text-align: left;
+    font-size: large;
+}
+
+#p1 img{
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.t1{
+    font-size: 40px;
+    text-align: center;
+    background-color: rgb(255, 119, 69);
+    margin-left: 400px;
+    margin-right: 400px;
+    border-radius: 10px;
+    color: white;
+}
+
+.p1{
+    font-size: 30px;
+    background-color: lightgreen;
+    font-family: Garamond;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 0;
+    margin-left: 520px;
+
+}
+
+.b1{
+    font-size: 20px;
+    background-color: rgba(172, 244, 172, 0.395);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 20px;
+    margin-top: 0;
+    padding-left: 5px;
+    margin-left: 520px;
+}
+
+.button{
+    margin-left: 950px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    background-color: rgb(7, 131, 49);
+    border-radius: 10px;
+}
+
+.footer{
+    margin-top: 40px;
+    text-align: center;
+    background-color: antiquewhite;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+}
+
+.footer a{
+    text-align: center;
+    margin: 20px;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+}
+   
